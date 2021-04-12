@@ -632,6 +632,7 @@ p {
   display: block;
   background: none;
   border-radius: 0;
+  padding-bottom: 80px;
 }
 
 .skills .progress .skill {
