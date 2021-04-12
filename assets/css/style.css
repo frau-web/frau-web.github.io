@@ -880,11 +880,11 @@ p {
 
 
 
-/*.contact .icon-box {
+.contact .contact-info .icon-box {
   margin-bottom: 20px;
   text-align: center;
 }
-*/
+
 .contact .contact-info .icon {
   display: inline-flex;
   justify-content: center;
