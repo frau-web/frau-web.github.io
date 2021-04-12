@@ -828,7 +828,7 @@ p {
 --------------------------------------------------------------*/
 
 
-### BELOW from other theme
+/*### BELOW from other theme: Groovin*/
 
 .contact .contact-info {
   margin-bottom: 20px;
@@ -852,7 +852,7 @@ p {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #b8a07e;
 }
 
 .contact .contact-info a {
@@ -867,7 +867,31 @@ p {
   margin-bottom: 20px;
 }
 
-### ABOVE from other theme
+
+
+/*.contact .icon-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+*/
+.contact .contact-info .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  color: #b8a07e;
+  overflow: hidden;
+}
+
+.contact .contact-info .icon i {
+  font-size: 36px;
+  line-height: 0;
+}
+
+/*### ABOVE from other theme: Groovin*/
 
 /*--------------------------------------------------------------
 # Blog
