@@ -830,8 +830,19 @@ p {
 
 /*### BELOW from other theme: Groovin*/
 
+.contact {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
 .contact .contact-info {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -844,7 +855,7 @@ p {
 
 .contact .contact-info address, .contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  color: #999999;
 }
 
 .contact .contact-info h3 {
@@ -856,7 +867,7 @@ p {
 }
 
 .contact .contact-info a {
-  color: #000;
+  color: #999999;
 }
 
 .contact .contact-info a:hover {
@@ -889,6 +900,7 @@ p {
 .contact .contact-info .icon i {
   font-size: 36px;
   line-height: 0;
+  color: #b8a07e;
 }
 
 /*### ABOVE from other theme: Groovin*/
