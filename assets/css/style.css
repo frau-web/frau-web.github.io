@@ -826,92 +826,48 @@ p {
 /*--------------------------------------------------------------
 # Journal
 --------------------------------------------------------------*/
-#contact {
-  height: auto;
-  width: 100%;
-}
 
-.contact-details {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-.contact-details li {
-  padding-bottom: 10px;
-}
+### BELOW from other theme
 
-#contact input, #contact textarea {
-  width: 100%;
-  margin-bottom: 5px;
-}
-
-#contact textarea {
-  min-height: 160px;
-}
-
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
+.contact .contact-info {
+  margin-bottom: 20px;
   text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
 }
 
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-
-.php-email-form .loading:before {
-  content: "";
+.contact .contact-info i {
+  font-size: 48px;
   display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
+  margin-bottom: 10px;
+  /*color: #5c9f24;*/
 }
 
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.contact .contact-info address, .contact .contact-info p {
+  margin-bottom: 0;
+  color: #000;
 }
 
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
 }
+
+.contact .contact-info a {
+  color: #000;
+}
+
+.contact .contact-info a:hover {
+  color: #b8a07e;
+}
+
+.contact .contact-address, .contact .contact-phone, .contact .contact-email {
+  margin-bottom: 20px;
+}
+
+### ABOVE from other theme
 
 /*--------------------------------------------------------------
 # Blog
