@@ -620,8 +620,7 @@ p {
 --------------------------------------------------------------*/
 #Skills {
   position: relative;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 120px;
   text-align: center;
 }
 
@@ -668,7 +667,8 @@ p {
 --------------------------------------------------------------*/
 #portfolio {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
+  background: #f7f7f7;
 }
 
 
@@ -884,6 +884,7 @@ p {
 .contact {
   margin-bottom: 50px;
   text-align: center;
+  padding-top: 120px;
 }
 
 .contact h2 {
