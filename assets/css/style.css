@@ -613,6 +613,54 @@ p {
   background-color: #b8a07e;
 }
 
+
+
+/*--------------------------------------------------------------
+# Skills (homemade)
+--------------------------------------------------------------*/
+#Skills {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+/* below from iportfolio*/
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #999999;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #e0e0e0;
+  height: 10px;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #b8a07e;
+}
+
+/* above from iportfolio*/
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
