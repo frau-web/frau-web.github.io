@@ -622,6 +622,7 @@ p {
   position: relative;
   padding-bottom: 50px;
   padding-top: 50px;
+  text-align: center;
 }
 
 /* below from iportfolio*/
@@ -669,6 +670,7 @@ p {
   position: relative;
   padding-bottom: 50px;
 }
+
 
 #portfolio #portfolio-flters {
   padding: 0;
@@ -873,7 +875,7 @@ p {
 }
 
 /*--------------------------------------------------------------
-# Journal
+# Contact
 --------------------------------------------------------------*/
 
 
