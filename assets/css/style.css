@@ -620,8 +620,9 @@ p {
 --------------------------------------------------------------*/
 .skills {
   position: relative;
-  padding-top: 120px;
+  padding-top: 80px;
   text-align: center;
+  padding-bottom: 80px;
 }
 
 /* below from iportfolio*/
